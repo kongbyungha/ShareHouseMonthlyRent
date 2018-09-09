@@ -15,15 +15,15 @@
 
         but.onclick = function(){
 
-                      var A = G.value + H.value + 80000 ;
-                      var C = (300000-A) / 3 ;
+                      var a = G.value + H.value + 80000 ;
+                      var c = (300000-a)/3;
                       
-                      var X = 270000 - C ;
-                      var Y = 230000 - C ;
-                      var Z = A + C * 2 ;
+                      var x = 270000 - c ;
+                      var y = 230000 - c ;
+                      var z = a + c * 2 ;
 
-                      var monthlyRent="이달의 재원님의 월세는" + X + "원이고, <br>은서님의 월세는" 
-                          + Y + "원이고, <br>병하님의 월세는" + Z + "원입니다.";
+                      var monthlyRent="이달의 재원님의 월세는" + x + "원이고, <br>은서님의 월세는" 
+                          + y + "원이고, <br>병하님의 월세는" + z + "원입니다.";
 
                       output.innerHTML = monthlyRent;
         }
