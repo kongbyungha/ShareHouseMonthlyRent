@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ShareHouseMonthlyRent</title>
+    <title>ShareHouse MonthlyRent</title>
 </head>
 <body>
+    
+    <div style="height: 7vw"></div>
+    <div style="margin: auto; width: 600px; padding: 2px 0 10px 0">
     <input type = "text" placeholder="가스요금을 입력하세요." size="30" id="G">원
     <input type = "text" placeholder="전기요금을 입력하세요." size="30" id="H">원
-    <button id="but">월세확인하기</button>
-    <div id="output" style="width:400px; height:400px; background: skyblue; color: darkblue; text-align: center; line-height: 30px;">이달의 월세요정입니다.</div>
+    <button id="but">월세 확인하기</button>
+    <div id="output" style="margin: auto; width:600px; height:400px; 
+                            background: skyblue; color: darkblue; 
+                            text-align: center; line-height: 30px;">안녕하세요^^<br>이달의 월세가 궁금하신가요..?<br>(우리집 전용입니다.) <br> Thx  636..뾰로롱</div>
 
     <script type="text/javascript">
         but.onclick = function() {
@@ -19,7 +24,7 @@
                       var x = 270000 - c;
                       var y = 230000 - c;
                       var z = a + c * 2;
-                      var monthlyRent = "이달의 재원님의 월세는 " + x + "원이고, <br>은서님의 월세는 " + y + "원이고, <br>병하님의 월세는 " + z + "원입니다."; 
+                      var monthlyRent = "이달의 <br>재원님의 월세는 " + x + "원이고, <br>은서님의 월세는 " + y + "원이고, <br>병하님의 월세는 " + z + "원입니다." + "<br>by.월세요정_XOXO"; 
                       output.innerHTML = monthlyRent;
         }
     </script>
